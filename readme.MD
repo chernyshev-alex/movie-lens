@@ -18,7 +18,7 @@ How to test :  $>  sbt test
 Test will print out the result for Tasks 1, 2
 
 Expected result : 
-
+```
 +-------+--------------------+--------------------+
 |MovieID|               Title|              Genres|
 +-------+--------------------+--------------------+
@@ -40,7 +40,8 @@ Expected result :
 | 25|395556|
 | 35|199003|
 +---+------+
-
+```
+```
 [info] MovieLensSpec:
 [info] - Top 10 best rated movies
 [info] - Which age group give the most ratings overall
@@ -50,7 +51,7 @@ Expected result :
 [info] Tests: succeeded 2, failed 0, canceled 0, ignored 0, pending 0
 [info] All tests passed.
 [success] Total time: 21 s, completed Sep 15, 2022, 3:14:34 PM
-
+```
 
 
 
