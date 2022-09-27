@@ -51,4 +51,11 @@ class MovieLensSpec extends SparkFunSuite with LocalSparkContext  {
     spark.sql(SQL).show()
   }
 
+  // https://github.com/hhbyyh/DataFrameCheatSheet
+
+  test("With dataset") {
+//    val caseClassDS = Seq(Person("Andy", 32)).toDS()
+//    val caseClassDS = spark.createDataset(Seq(Person("Andy", 32), Person("Andy2", 33)))
+  }
+
 }
